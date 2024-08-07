@@ -1,0 +1,220 @@
+.open-sans-normal {
+	font-family: "Open Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-variation-settings:
+	  "wdth" 100;
+  }
+.secondary-bg{
+  background-color: #FFF8F3;
+}
+  nav{
+	display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 100px;
+ 
+}
+.nav-title{
+	font-weight:800;
+	font-size: 45px;
+}
+.text-primary{
+	color:#FD6E0A
+}
+
+nav > ul > li{
+  list-style: none;
+
+}
+nav > ul > li >a{
+  text-decoration: none;
+  font-size: 20px;
+
+}
+.dark-2{
+  color:#474747;
+}
+.btn-primary{
+  background-color: #222120;
+  font-weight: bold;
+  color:white;
+  padding:18px 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  border:none;
+ 
+}
+.header{
+  margin: 0;
+  padding: 0;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+.banner{
+  width:100%;
+  height:100vh;
+  background-image:url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.banner-title{
+  font-size: 45px;
+  font-weight: bold;
+  color: #181818;
+ 
+}
+.banner-content{
+padding-top:30px;
+text-align: center;
+ }
+
+ .section-title{
+  font-size: 45px;
+  font-weight: bold;
+  color: #181818;
+  
+ }
+
+ .section-description{
+  font-size: 18px;
+  color: #757575;
+ }
+ .text-center{
+  text-align: center;
+  margin-top: 150px;
+ }
+ /* main styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+ /* about styles */
+ .about{
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+ }
+ main section{
+  margin-top: 60px;
+ }
+ .about-items{
+  display: flex;
+  align-items: center;
+  margin: 50px;
+}
+.about-item-1{
+  height: 230px; 
+  width: 670px;
+  padding: 10px 20px;
+  background-color:rgb(251, 248, 248);
+}
+.heading{
+  text-align: left;
+  padding:5px 20px;
+  font-size: 20px;
+}
+.text-title{
+  text-align: left;
+  padding:0 10px;
+}
+ .btn-common{
+  background-color:rgb(251, 248, 248);
+  color: #181818;
+  padding:12px 25px;
+  border-radius: 5px;
+  font-size: 20px;
+  border:1px solid black;
+  margin-right:250px;
+ }
+ .video-title{
+  margin: -180px auto;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+ }
+ .video{
+  margin: 80px auto;
+  text-align: center;
+ }
+.current-target{
+  margin: 50px auto;
+  text-align: center;
+}
+.skills-container{
+  display: flex;
+  gap:24px;
+}
+.skills{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0,0.06);
+}
+.background-1{
+  background-color:  #FFF8F3;
+}
+.background-2{
+  background-color: rgb(234, 234, 244);
+}
+.background-3{
+  background-color: rgb(248, 248, 221);
+}
+.next-target{
+text-align: center;
+}
+ .next-container{
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  margin: 35px 50px;
+  padding: 30px 50px;
+  border-radius: 15px;
+ }
+.img{
+  margin: 0px 30px;
+}
+.next-skill{
+  text-align: start;
+}
+a{
+  font-size: 17px;
+  font-weight: bold;
+  color: #181818;
+}
+.main-footer{
+  width: 100%;
+  height: 68vh;
+  background-image:url(../assets/handshake.jpg);
+  text-align: center;
+  margin-top: 60px;
+  justify-content: center;
+  border-radius: 25px;
+}
+input{
+  width: 290px;
+  height: 47px;
+  align-items: center;
+}
+
+.footer-heading{
+  color: #fcfbfa;
+  font-size: 38px;
+}
+.footer-title{
+  color: #fbf3ec;
+}
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:rgb(251, 248, 248);
+  margin: 40px 30px;
+  padding: 0px 20px;
+}
+.icon{
+  align-items:center;
+}
